@@ -6,3 +6,4 @@ function getuserInfo(){
     return [age, _name, dob]
 }
 module.exports=getuserInfo
+//exporting the function to be used in other files  

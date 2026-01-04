@@ -1,0 +1,42 @@
+[33mcommit ff1b0b7153c5126f26968a1a1fe8b866ca051081[m
+Author: Niraj Mishra <niraj.mishra0110@gmail.com>
+Date:   Sat Jan 3 21:31:47 2026 -0500
+
+    initital code added
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5e474f5[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <script>[m
+[32m+[m[32m        console.log('Hello, World!');[m
+[32m+[m[32m    </script>[m
+[32m+[m[41m    [m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.js b/index.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..85212c4[m
+[1m--- /dev/null[m
+[1m+++ b/index.js[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mconst age=24[m
+[32m+[m[32mconst _name="John Doe"[m
+[32m+[m[32mconst dob="01/01/2000"[m
+[32m+[m
+[32m+[m[32mfunction getuserInfo(){[m
+[32m+[m[32m    return [age, _name, dob][m
+[32m+[m[32m}[m
+[32m+[m[32mmodule.exports=getuserInfo[m
+\ No newline at end of file[m
