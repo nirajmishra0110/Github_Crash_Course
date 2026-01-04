@@ -7,3 +7,4 @@ function getuserInfo(){
 }
 
 console.log(getuserInfo())
+console.log("This is a git crash course - pcdev")
